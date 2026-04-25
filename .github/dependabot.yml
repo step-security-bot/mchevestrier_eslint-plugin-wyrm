@@ -61,3 +61,38 @@ updates:
     commit-message:
       prefix: 'chore'
       include: 'scope'
+
+  - package-ecosystem: npm
+    directory: /examples/basic-example
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/eslint-v9
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/example-oxlint
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /examples/example-react
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/eslint-config-internal
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/eslint-plugin-internal
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /packages/eslint-plugin-wyrm
+    schedule:
+      interval: daily
